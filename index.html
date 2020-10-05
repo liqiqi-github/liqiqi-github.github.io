@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
+        <meta name="Keywords" content="����С˵,ԭ������С˵,��Խ����С˵,��������С˵,����С˵����,�������С˵,����С˵�����Ķ�,�ֻ�����С˵,��������С˵,����С˵������" />
+        <meta name="Description" content="������ѧ��(www.jjwxc.net)������2003��8�£��Ǿ߱��൱��ģŮ��������ѧԭ�����ء�վ����Ʒ��Ķ�������������С˵������С˵������С˵������С˵��260���򲿣��ѵ�������ǧ�ǡ���������Ĭ���ϰٲ�����Ӱ�Ӿ���Ʒ��������ѧ���Ѿ���һ���򵥵���ѧ�����߼�ɢ�ؿ������Ƚ��سɳ�Ϊ��ҵ�ڵ��̳���"  />
+        <meta name="Author" content="������ѧ��@jjwxc.net" />
+        <meta name="Copyright" content="www.jjwxc.net ������ѧ�� ����ԭ����" />
+        <title>����С˵_��������С˵_�������С˵�����Ķ�_������ѧ��</title>
+        <base target="_blank" />
+        <link href="static/css/index2010.css" type="text/css" rel="stylesheet" />
+        <link href="static/css/main2010.css" type="text/css" rel="stylesheet" />
+        <style type="text/css">
+            .sy_cbys_xt{width:100%;margin-top: 5px;overflow: hidden;}
+            .sy_cbys_xt a{float:left; display:inline-block; width:434px; height:142px; padding:2px; border:2px solid #9dac2d; margin-right:10px; background:#fcfef1;}
+            .sy_cbys_xt a:hover{border-color:#37b2ff;}
+            .div1 {height:114px; margin-bottom:30px;}
+            .div1 a {height:114px; width:920px; display:block;}
+            .div2 ul {height:46px; margin-bottom:0px;}
+            .div2 ul li {width:206px; height:46px; float:left;}
+            .div2 ul li.l4 {float:left; width:18px; height:10px;}
+            .div2 div.l4 {float:left; width:18px; height:10px;}
+            .div2 ul li a.tab{width:206px; height:46px; display:block;}
+            a.a1, a.a1:hover {background:url(static/images/button_01.png) no-repeat;}
+            a.a2, a.a2:hover {background:url(static/images/button_02.png) no-repeat;}
+            a.a3, a.a3:hover {background:url(static/images/button_04.png) no-repeat;}
+                        a.a4, a.a4:hover {background: url(static/images/button_03.png) no-repeat;}
+                        a.a5, a.a5:hover {background:url(static/images/button_05.png) no-repeat;}
+            a.a6, a.a6:hover {background:url(static/images/button_06.png) no-repeat;}
+            a.a7, a.a7:hover {background:url(static/images/button_07.png) no-repeat;}
+            a.a8, a.a8:hover {background:url(static/images/button_08.png) no-repeat;}
+            a.a1:hover, a.a2:hover, a.a3:hover, a.a4:hover, a.a5:hover,a.a6:hover,a.a7:hover ,a.a8:hover {background-position:0 bottom;}
+            .contant {padding-left:4px;}
+            .play { width:250px; padding-right:30px; font-size:12px; float:left; }
+            .play p { width:120px; height:70px; padding:1px; margin-bottom:8px; border:#d6ddb2 1px solid; }
+            .color { color:#900; }
+            .but { margin-top:10px; }
+
+            .concent_list{width: 206px; float: left; background:url(static/images/indexlistbg.gif) no-repeat;overflow: hidden; height:264px; padding:8px 0;}
+            .div2 .concent_list ul li{width:198px;overflow: hidden; height:22px; float:left; text-indent: 15px;background:url(static/images/youjian.gif) 10px 8px no-repeat;}
+            .div2 .concent_list ul li a{line-height:22px; height:22px;}
+            .div2 ul li a.novelnamestype{display: inline;}
+            .div2 ul li a.authorclass{display: inline;}
+            body #top{height:135px;}
+            body .time{top:20px;}
+            body .login{top:60px;}
+            .intro {width:105px;height:20px;background:url(static/images/indexbg.gif);background-repeat : no-repeat;}
+            .li_right{float:right;cursor:auto;text-indent:0px;}
+        </style>
+        <script type="text/javascript" src="static/js/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript">!window.jQuery&&document.write('<script src="static/js/jquery-1.8.0.min.js"><\/script>');</script>
+        <script type="text/javascript" src="static/js/jquery.blockui.pack.js"></script>
+        <script type="text/javascript" src="static/js/jjlogin.js"></script>
+        <script type="text/javascript" src="static/js/main.120724.js"></script>
+        <script type="text/javascript" src="static/js/check.js"></script>
+        <script type="text/javascript">
+            function onblock(id) {
+                if ($.browser.msie&&(($.browser.version=="7.0")||($.browser.version=="6.0"))) {
+                    leftPx = document.scrollLeft+$("#"+id).offset().left+0+"px";
+                } else {
+                    leftPx = $("#"+id).offset().left+150+"px";
+                }
+//                leftPx = $("#"+id).offset().left+0+"px";
+                topPx = $("#"+id).offset().top+20+"px";
+                $("#"+id+'_span').css("position", "absolute");
+                $("#"+id+'_span').css("left", leftPx);
+                $("#"+id+'_span').css("top", topPx);
+                $("#"+id+'_span').show();
+            }
+            function ondisplay(id) {
+                $("#"+id+'_span').hide();
+            }
+            $(function() {
+                if (typeof (showTime)=='function') {
+                    showTime();
+                }
+                $('.tab').hover(
+                        function() {
+                            var id = $(this).attr('rel');
+                            var cid;
+                            if (id>4) {
+                                cid = id-4;
+                            } else {
+                                cid = id;
+                            }
+                            $('.contant'+cid).hide();
+                            $('#url'+id).show();
+                        },
+                        function() {
+
+                        }
+                )
+            })
+        </script>
+        <script language="javascript">
+            function addfavor(url, title) {
+                if (confirm("��վ���ƣ�"+title+"\n��ַ��"+url+"\nȷ������ղ�?")) {
+                    var ua = navigator.userAgent.toLowerCase();
+                    if (ua.indexOf("msie 8")>-1) {
+                        external.AddToFavoritesBar(url, title, title);//IE8
+                    } else {
+                        try {
+                            window.external.addFavorite(url, title);
+                        } catch (e) {
+                            try {
+                                window.sidebar.addPanel(title, url, "");//firefox
+                            } catch (e) {
+                                alert("�����ղ�ʧ�ܣ���ʹ��Ctrl+D�������");
+                            }
+                        }
+                    }
+                }
+                return false;
+            }
+        </script>
+        <script>
+            /**
+             * ��ȡcookie
+             * @param string cName cookei ����
+             */
+            function getcookie(cName) {
+                var search = cName+"=";
+                var returnvalue = 0;
+                if (document.cookie.length>0) {
+                    offset = document.cookie.indexOf(search);
+                    if (offset!=-1) {
+                        offset += search.length;
+                        end = document.cookie.indexOf(";", offset);
+                        if (end==-1) {
+                            end = document.cookie.length;
+                        }
+                        returnvalue = unescape(document.cookie.substring(offset, end));
+                    }
+                }
+                return returnvalue;
+            }
+            /**
+             * �رո���ͼƬ
+             */
+            function closeDiv() {
+                $(".sbox_2").css("display", "none");
+                $("#overlay").css("display", "none");
+            }
+        </script>
+        <style type="text/css">
+            .sbox_2{
+                width:100%;
+                height:600px;
+                text-align: center;
+                background: url(static/images/index_1000_600.jpg) no-repeat center;
+                cursor:pointer;
+                z-index:2147483646;
+                display: none;
+                position: absolute;
+                top:100px;
+            }
+            #overlay {
+                background: #000;
+                filter: alpha(opacity=50); /* IE��͸���� */
+                opacity: 0.5;  /* ͸���� */
+                display: none;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 2147483645; /* �˴���ͼ��Ҫ����ҳ�� */
+                display:none;
+            }
+            #ad{
+                width:40px;
+                height:10px;
+                position:absolute;
+                z-index: 2147483646;
+                right:0px;
+                top:5px;
+                cursor:pointer
+            }
+        </style>
+    </head>
+    <body>
+        <div id="overlay">
+
+        </div>
+        <div class="sbox_2" onclick="closeDiv();
+                return false;">
+            <div id="ad" onclick="closeDiv()"><input type='hidden' id='needsecond' value='5' ><span id="countdown" style="margin-right:5px"></span><img src="static/picture/close.gif" style="vertical-align:middle"/></div>
+
+        </div>
+        <!--js���ؼ���,check.js�н��еļ��-->
+        <p id="checkJs" style="text-align:center"></p>
+        <div id="top" style="z-index: 200;">
+            <div id="logo">
+                <a href="http://www.jjwxc.net"><img src="static/picture/logo.jpg" alt="������ѧ��Logo"/></a></div>
+            <div class="time">
+                <div>
+                    <ul>
+                        <li><span id="serverTime"></span></li>
+                        <li class="l1"><a href="###" onclick="javascript:addfavor('http://www.jjwxc.net', '������ѧ��');
+                                _czc.push(['_trackEvent', 'WWW��ҳ', '���', '��Ϊ�ղ�']);">��Ϊ�ղ�</a></li>
+                        <li class="l2"><a href="http://www.jjwxc.net" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '��Ϊ��ҳ']);
+                                this.style.behavior = 'url(#default#homepage)';
+                                this.setHomePage('http://www.jjwxc.net');
+                                return(false);">��Ϊ��ҳ</a></li>
+                        <li class="l3"><a onclick="trans();
+                                return false;" id="S2TLink" href="#">�����</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="login" style="position:relative; width:100%; text-align:right;">
+                <div class="top_right" style="position:absolute; top:0; right:-6pt;; padding:0;">
+                    <div id="t_user_signin"></div> <div id="t_user_info"></div> <div id="t_user_sms"></div> <div id="t_user_nav"></div>
+                    <noscript>�������������������javascript���޷�����ʹ�ñ���վ���ܣ�<a href="http://help.jjwxc.net/user/article/136" target="_blank"><font color="blue">��ο��˷������¿���javascript</font></a></noscript>
+                </div>
+            </div>
+            <script type="text/javascript">checkLogin();</script>
+        </div>
+        <div id="main" style="z-index: 1;">
+            <div style='width:974px; height:174px; margin:0 auto;' id="imgchangedivstr">
+                <!-- ���λ����������ҳ��ͼ-->
+            </div>
+            <div class="mainbox" style="padding-top:0px;">
+                <div class="div2">
+                    <ul>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/yq/" class="a1 tab" rel="1" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '����']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/noyq/" class="a4 tab" rel="2" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '������']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/ys/" class="a3 tab" rel="3" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '����']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/yc/" class="a2 tab" rel="4" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', 'ԭ��']);"></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="l4"></div>
+                    <div class="concent_list">
+                        <div class="contant1" id="url1">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="contant1" id="url5" style="display: none;padding:0 10px;" >
+                            <h2><a href="http://www.jjwxc.net/fenzhan/by/"> ����Ŀ�>></a></h2>
+                            <p>����ۿ�������Ŀ����԰�۳��۵���Ʒ���ò�����Ʒ��Ϊ�����Ʒ����������Ļ�����ԭ�۵Ļ����ϣ������Żݡ�ͬʱ������ۿ��ڵ�������Ʒ��Ҳ������ѡ���԰��·�ʽ����һ�����ڣ�֧��3Ԫ�ɶ�����5����֧��15Ԫ���������Ķ�����������Ʒ��</p>
+                        </div>
+                    </div>
+                    <div class="l4"></div>
+                    <div class="concent_list">
+                        <div class="contant2" id="url2">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="contant2" id="url6" style="display: none; padding:0 10px;">
+                            <h2><a href="http://www.jjwxc.net/fenzhan/bq/"> ����ȫ��Ȩվ>></a></h2>
+                            <p>�����Ȩ���أ���½������桢��̨������桢������棬��ÿ��3����ǩԼ�����ٷ�չ��<br />
+                                ����Ӱ�Ӹı��Ȩ�������ı��Ȩ����������ı��Ȩ�����߰�Ȩ�Ķ����������Ȩ�����Ȱ�Ȩ���뼰�������������ҵ��ռ�����е�λ��������������ѷ�չ��̩�����������¼��µȡ�</p>
+                        </div>
+                    </div>
+                    <div class="l4"></div>
+                    <div class="concent_list">
+                        <div class="contant3" id="url3">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="contant3" id="url7" style="padding:0 10px; display:none;">
+                            <h2><a href="//www.jjwxc.net/channel/children.php">С������ѧ</a> >></h2>
+                            <p>������ѧ�����µĶ�ͯ��ѧվ�������Ӽҳ����ԡ��������ӽ����������׶��͸�ĸ����С�ΪĿ�ģ���רΪ�����Ķ�������˯ǰ������Ŀ��<br />��������ֱ�������ҵ��ʺϲ��Ÿ�12�����º������Ķ��衢Ԣ�ԡ�ͯ�����£��������ӹ�ϵ��������κι��ĺ��ӳɳ������߶����Ը�С�����Ǵ���һ��������������硣
+                            </p>
+                        </div>
+                    </div>
+                    <div class="l4"></div>
+                    <div class="concent_list">
+                        <div class="contant4" id="url4">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="contant4" id="url8" style="display: none; padding:0 10px;">
+                            <h2><a href="http://bbs.jjwxc.net">������̳</a> >></h2>
+                            <p>Ҳ�ƽ�����С�ۺ족,����Ϊ��bbs.jjwxc.net����<br />
+                                �ǽ���һֱ�������ȵ����򣬽�����С�ۺ죬һֱ��һ���а��ĵط�����������ǿ������Ĺ���ʱ�İ��ԡ���ˮ�����������������������ǿ������ġ����������̡�ֱ����
+                                ������С�ۺ족������������㣡</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <ul>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/by/" class="a5 tab" rel="5" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '����Ŀ�']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="http://www.jjwxc.net/fenzhan/bq/" class="a6 tab" rel="6" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '��ȨƵ��']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="//www.jjwxc.net/channel/children.php" class="a7 tab" rel="7" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', 'С������ѧ']);"></a></li>
+                        <li class="l4"></li>
+                        <li><a href="http://bbs.jjwxc.net/" class="a8 tab" rel="8" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '������̳']);"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer1">
+            <p class="red"><a href="http://www.jjwxc.net/aboutus/" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '��������']);" ><font color ="red">��������</font></a>��<a href="http://www.jjwxc.net/aboutus/#fragment-29" onclick="_czc.push(['_trackEvent', 'WWW��ҳ', '���', '��ϵ��ʽ']);"><font color="red">��ϵ��ʽ</font></a>��<a href="http://help.jjwxc.net/user/contact"><font color="red">��ϵ�ͷ�</font></a>��<a href="http://help.jjwxc.net/user/more/24/0"><font color="red">���ߵ���</font></a>��<a href="http://help.jjwxc.net/user/more/23/0"><font color="red">���ߵ���</font></a>��<a href="http://www.jjwxc.net/invite.php"><font color="red">�����Ͳ�</font></a>��<a href="http://www.jjwxc.net/jjwxcauthority.php"><font color="red">Ȩ������</font></a>��<a href="http://www.jjwxc.net/aboutus/#fragment-29"><font color="red">������</font></a>��<a href="http://www.jjwxc.net/friendly.php"><font color="red">��������</font></a>��<a href="http://help.jjwxc.net/user/more_index"><font color="red">��������</font></a>��<a href="http://help.jjwxc.net/user/article/183"><font color="red">��Ϲ���</font></a></p>
+            <p><font color="red">Υ�����ݾٱ�����400-870-5552�����žٱ���15300292289����ӭ���ಿ��ֱ���µ�֪ͨɾ��Υ������<a href="http://www.cyberpolice.cn" style="color:red">������������Υ������ٱ���վ��</a><a href="https://www.12377.cn/" style="color:red">�������к���Ϣ�ٱ�ר����</a></font></p>
+            <p class="red">Copyright By ������ѧ�� www.jjwxc.net All rights reserved </p>
+            <p class="red"><a href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">��ICP֤080637��</a> <a href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">��ICP��12006214��-2</a><font color="#666666"> ��������֤�������ֵ�002��  <a  target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502023476"><img style="padding-top:0px;" src="static/picture/recordicon.png" /><span style="color:#666666;">���������� 11010502023476��</span></a></font>
+                <!--������վͼƬLOGO��װ��ʼ-->
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e17082511010568698kvzl000000&pa=111332"
+                   rel="nofollow"
+                   tabindex="-1"
+                   id="urlknet"
+                   target="_blank">
+                    <img alt="&#x53EF;&#x4FE1;&#x7F51;&#x7AD9;" name="KNET_seal" border="true" src="static/picture/kexinwang.png" style='width:70px;padding-top: 0px' />
+                </a>
+                <!--������վͼƬLOGO��װ����-->
+            </p>
+            <p class="red">��վȫ����Ʒ������С˵����������ȨΪԭ���������� ����վ��Ϊ����д���ṩ�ϴ��ռ䴢��ƽ̨����վ����¼��Ʒ���������⡢������ۼ���վ����֮�������������Ϊ</p>
+            <p class="red">�뱾վ�����޹ء���վҳ���ȨΪ������ѧ�����У��κε�λ������δ����Ȩ����ת�ء����ơ��ַ����Լ�������ҵ��;��</p>
+            <p class="red">��Ҫ���������������߷�����Ʒʱ�ϸ����ع��һ�������Ϣ����취�涨�����Ǿܾ��κ�ɫ�鱩��С˵��һ�����֣�����ɾ��Υ����Ʒ�������߽�ͬʱ��������˺š�</p>
+            <p class="red">�����鹹 ����ģ�� ��Ȩ���� ��Ȩ�ؾ� �ʶ��Ķ� ������� ������� ��������</p>
+        </div>
+        <script>
+            $(function() {
+                var status = jjCookie.get('foreverreader', true, '.jjwxc.net');
+                if (status!=null) {
+                    $('#url1 ul').html('<li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���콵���һ���ڡ�&nbsp;���ӹ�" alt="���콵���һ���ڡ�&nbsp;���ӹ�" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3325239">�콵���һ����&nbsp;</a><div  onmouseover="onblock(3325239)"  onmouseout="ondisplay(3325239)"  id="3325239"  ><span class="li_right">1216017ƿ</span><div id="3325239_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����Ů����&nbsp;����������" alt="�����Ů����&nbsp;����������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3882321">���Ů��&nbsp;</a><div  onmouseover="onblock(3882321)"  onmouseout="ondisplay(3882321)"  id="3882321"  ><span class="li_right">1090989ƿ</span><div id="3882321_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��Ů�䲻��ͣ��촩����&nbsp;�������" alt="��Ů�䲻��ͣ��촩����&nbsp;�������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3595501">Ů�䲻��ͣ��촩��&nbsp;</a><div  onmouseover="onblock(3595501)"  onmouseout="ondisplay(3595501)"  id="3595501"  ><span class="li_right">1042212ƿ</span><div id="3595501_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ѧ�Ա�ɻ�ƿŮ[�촩]��&nbsp;�μ�С��" alt="����ѧ�Ա�ɻ�ƿŮ[�촩]��&nbsp;�μ�С��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3403714">��ѧ�Ա�ɻ�ƿŮ[&nbsp;</a><div  onmouseover="onblock(3403714)"  onmouseout="ondisplay(3403714)"  id="3403714"  ><span class="li_right">835419ƿ</span><div id="3403714_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ơ�&nbsp;��Ϫ����" alt="�����ơ�&nbsp;��Ϫ����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3780093">����&nbsp;</a><div  onmouseover="onblock(3780093)"  onmouseout="ondisplay(3780093)"  id="3780093"  ><span class="li_right">797894ƿ</span><div id="3780093_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ŷ�����&nbsp;���µ�Ӱ" alt="�����ŷ�����&nbsp;���µ�Ӱ" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3433838">���ŷ���&nbsp;</a><div  onmouseover="onblock(3433838)"  onmouseout="ondisplay(3433838)"  id="3433838"  ><span class="li_right">793152ƿ</span><div id="3433838_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�������δ����ħ����ô�죿��&nbsp;��ʸ�" alt="�������δ����ħ����ô�죿��&nbsp;��ʸ�" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3991934">�����δ����ħ����&nbsp;</a><div  onmouseover="onblock(3991934)"  onmouseout="ondisplay(3991934)"  id="3991934"  ><span class="li_right">767267ƿ</span><div id="3991934_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="������ͬ�ޡ�&nbsp;��ʸ�" alt="������ͬ�ޡ�&nbsp;��ʸ�" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=2680387">����ͬ��&nbsp;</a><div  onmouseover="onblock(2680387)"  onmouseout="ondisplay(2680387)"  id="2680387"  ><span class="li_right">719815ƿ</span><div id="2680387_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ŷ��˽�һ��[����Ȧ]��&nbsp;������" alt="�����ŷ��˽�һ��[����Ȧ]��&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3953941">���ŷ��˽�һ��[��&nbsp;</a><div  onmouseover="onblock(3953941)"  onmouseout="ondisplay(3953941)"  id="3953941"  ><span class="li_right">643381ƿ</span><div id="3953941_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����������������ô�ơ�&nbsp;������" alt="����������������ô�ơ�&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3586911">��������������ô��&nbsp;</a><div  onmouseover="onblock(3586911)"  onmouseout="ondisplay(3586911)"  id="3586911"  ><span class="li_right">589504ƿ</span><div id="3586911_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����������[�촩]��&nbsp;��������" alt="����������[�촩]��&nbsp;��������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3526068">��������[�촩]&nbsp;</a><div  onmouseover="onblock(3526068)"  onmouseout="ondisplay(3526068)"  id="3526068"  ><span class="li_right">554963ƿ</span><div id="3526068_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�������̲贩��С������&nbsp;������" alt="�������̲贩��С������&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4403740">�����̲贩��С����&nbsp;</a><div  onmouseover="onblock(4403740)"  onmouseout="ondisplay(4403740)"  id="4403740"  ><span class="li_right">518566ƿ</span><div id="4403740_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li>');
+                    $('#url2 ul').html('<li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ٴ͸���&nbsp;ī��ͭ��" alt="����ٴ͸���&nbsp;ī��ͭ��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3200611">��ٴ͸�&nbsp;</a><div  onmouseover="onblock(3200611)"  onmouseout="ondisplay(3200611)"  id="3200611"  ><span class="li_right" >3987066ƿ</span><div id="3200611_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��������Ͳ��&nbsp;������" alt="��������Ͳ��&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3435320">������Ͳ&nbsp;</a><div  onmouseover="onblock(3435320)"  onmouseout="ondisplay(3435320)"  id="3435320"  ><span class="li_right" >2763713ƿ</span><div id="3435320_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���������ߡ�&nbsp;Ī����" alt="���������ߡ�&nbsp;Ī����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3377217">��������&nbsp;</a><div  onmouseover="onblock(3377217)"  onmouseout="ondisplay(3377217)"  id="3377217"  ><span class="li_right" >1797583ƿ</span><div id="3377217_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���һ𽽳&nbsp;priest" alt="���һ𽽳&nbsp;priest" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3886659">�һ𽽳�&nbsp;</a><div  onmouseover="onblock(3886659)"  onmouseout="ondisplay(3886659)"  id="3886659"  ><span class="li_right" >1774154ƿ</span><div id="3886659_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="������2�̺���&nbsp;����" alt="������2�̺���&nbsp;����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3617495">����2�̺�&nbsp;</a><div  onmouseover="onblock(3617495)"  onmouseout="ondisplay(3617495)"  id="3617495"  ><span class="li_right" >1603236ƿ</span><div id="3617495_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ơ�&nbsp;����" alt="�����ơ�&nbsp;����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3395943">����&nbsp;</a><div  onmouseover="onblock(3395943)"  onmouseout="ondisplay(3395943)"  id="3395943"  ><span class="li_right" >1517020ƿ</span><div id="3395943_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��̽�����ִ�ƪ��&nbsp;��sola" alt="��̽�����ִ�ƪ��&nbsp;��sola" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=1473506">̽�����ִ�ƪ&nbsp;</a><div  onmouseover="onblock(1473506)"  onmouseout="ondisplay(1473506)"  id="1473506"  ><span class="li_right" >1292367ƿ</span><div id="1473506_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���ҿ�����԰��Щ�꡷&nbsp;���޻��ǵ�����" alt="���ҿ�����԰��Щ�꡷&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3142278">�ҿ�����԰��Щ��&nbsp;</a><div  onmouseover="onblock(3142278)"  onmouseout="ondisplay(3142278)"  id="3142278"  ><span class="li_right" >1237455ƿ</span><div id="3142278_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��ȫ��߿���&nbsp;ľ����" alt="��ȫ��߿���&nbsp;ľ����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3419133">ȫ��߿�&nbsp;</a><div  onmouseover="onblock(3419133)"  onmouseout="ondisplay(3419133)"  id="3419133"  ><span class="li_right" >1231711ƿ</span><div id="3419133_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��Ĭ����&nbsp;priest" alt="��Ĭ����&nbsp;priest" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=2771073">Ĭ��&nbsp;</a><div  onmouseover="onblock(2771073)"  onmouseout="ondisplay(2771073)"  id="2771073"  ><span class="li_right" >1225408ƿ</span><div id="2771073_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ְ�޳����Һ��ˡ�&nbsp;���޻��ǵ�����" alt="����ְ�޳����Һ��ˡ�&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4398357">��ְ�޳����Һ���&nbsp;</a><div  onmouseover="onblock(4398357)"  onmouseout="ondisplay(4398357)"  id="4398357"  ><span class="li_right" >1116283ƿ</span><div id="4398357_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��������ȱ�㡷&nbsp;������" alt="��������ȱ�㡷&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3146241">������ȱ��&nbsp;</a><div  onmouseover="onblock(3146241)"  onmouseout="ondisplay(3146241)"  id="3146241"  ><span class="li_right" >1102102ƿ</span><div id="3146241_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li>');
+                    $('#url3 ul').html('<li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ְҵ���ɡ�&nbsp;���޻��ǵ�����" alt="����ְҵ���ɡ�&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3142301">��ְҵ����&nbsp;</a><div  onmouseover="onblock(3142301)"  onmouseout="ondisplay(3142301)"  id="3142301"  ><span class="li_right" >949540ƿ</span><div id="3142301_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ҽ��&nbsp;���޻��ǵ�����" alt="����ҽ��&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3888044">��ҽ&nbsp;</a><div  onmouseover="onblock(3888044)"  onmouseout="ondisplay(3888044)"  id="3888044"  ><span class="li_right" >677450ƿ</span><div id="3888044_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ڹʹ�װè�����ӡ�&nbsp;����215" alt="�����ڹʹ�װè�����ӡ�&nbsp;����215" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4021830">���ڹʹ�װè������&nbsp;</a><div  onmouseover="onblock(4021830)"  onmouseout="ondisplay(4021830)"  id="4021830"  ><span class="li_right" >568109ƿ</span><div id="4021830_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="������ʷ̫�౻��������ô�죿��&nbsp;��ǧ��" alt="������ʷ̫�౻��������ô�죿��&nbsp;��ǧ��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4566988">����ʷ̫�౻������&nbsp;</a><div  onmouseover="onblock(4566988)"  onmouseout="ondisplay(4566988)"  id="4566988"  ><span class="li_right" >462344ƿ</span><div id="4566988_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���Ұ����&nbsp;���޻��ǵ�����" alt="���Ұ����&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3558501">�Ұ�����&nbsp;</a><div  onmouseover="onblock(3558501)"  onmouseout="ondisplay(3558501)"  id="3558501"  ><span class="li_right" >443113ƿ</span><div id="3558501_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��ˮɼ֮�С�&nbsp;��ǧ��" alt="��ˮɼ֮�С�&nbsp;��ǧ��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4283793">ˮɼ֮��&nbsp;</a><div  onmouseover="onblock(4283793)"  onmouseout="ondisplay(4283793)"  id="4283793"  ><span class="li_right" >416979ƿ</span><div id="4283793_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����ɲм�������ô�߾籾����&nbsp;��Σ" alt="�����ɲм�������ô�߾籾����&nbsp;��Σ" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4502825">���ɲм�������ô��&nbsp;</a><div  onmouseover="onblock(4502825)"  onmouseout="ondisplay(4502825)"  id="4502825"  ><span class="li_right" >396517ƿ</span><div id="4502825_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��ĩ��������&nbsp;���Ƶ�" alt="��ĩ��������&nbsp;���Ƶ�" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4375938">ĩ������&nbsp;</a><div  onmouseover="onblock(4375938)"  onmouseout="ondisplay(4375938)"  id="4375938"  ><span class="li_right" >338968ƿ</span><div id="4375938_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����Ҫ��ʢ�������к��á�&nbsp;���޻��ǵ�����" alt="����Ҫ��ʢ�������к��á�&nbsp;���޻��ǵ�����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3888037">��Ҫ��ʢ�������к�&nbsp;</a><div  onmouseover="onblock(3888037)"  onmouseout="ondisplay(3888037)"  id="3888037"  ><span class="li_right" >334788ƿ</span><div id="3888037_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��[��]���ڹʹ�װ�������ӡ�&nbsp;����215" alt="��[��]���ڹʹ�װ�������ӡ�&nbsp;����215" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3669406">[��]���ڹʹ�װ����&nbsp;</a><div  onmouseover="onblock(3669406)"  onmouseout="ondisplay(3669406)"  id="3669406"  ><span class="li_right" >327616ƿ</span><div id="3669406_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���Դ��ҳа��˴��è����ԣ���&nbsp;�ϸ���" alt="���Դ��ҳа��˴��è����ԣ���&nbsp;�ϸ���" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3546892">�Դ��ҳа��˴��è&nbsp;</a><div  onmouseover="onblock(3546892)"  onmouseout="ondisplay(3546892)"  id="3546892"  ><span class="li_right" >289458ƿ</span><div id="3546892_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���Դ��Ҽ���ɱ����׸���[��]��&nbsp;�ϸ���" alt="���Դ��Ҽ���ɱ����׸���[��]��&nbsp;�ϸ���" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3178139">�Դ��Ҽ���ɱ����&nbsp;</a><div  onmouseover="onblock(3178139)"  onmouseout="ondisplay(3178139)"  id="3178139"  ><span class="li_right" >287398ƿ</span><div id="3178139_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li>');
+                    $('#url4 ul').html('<li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����Ϣ�ա�&nbsp;����ɣ" alt="����Ϣ�ա�&nbsp;����ɣ" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3006768">��Ϣ��&nbsp;</a><div  onmouseover="onblock(3006768)"  onmouseout="ondisplay(3006768)"  id="3006768"  ><span class="li_right" >1048209ƿ</span><div id="3006768_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���д�Ʒ��&nbsp;priest" alt="���д�Ʒ��&nbsp;priest" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3121357">�д�Ʒ&nbsp;</a><div  onmouseover="onblock(3121357)"  onmouseout="ondisplay(3121357)"  id="3121357"  ><span class="li_right" >1031312ƿ</span><div id="3121357_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����Ұ��&nbsp;����" alt="����Ұ��&nbsp;����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=2956313">��Ұ&nbsp;</a><div  onmouseover="onblock(2956313)"  onmouseout="ondisplay(2956313)"  id="2956313"  ><span class="li_right" >1025559ƿ</span><div id="2956313_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���ٹ�[�羺]��&nbsp;����" alt="���ٹ�[�羺]��&nbsp;����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4493117">�ٹ�[�羺]&nbsp;</a><div  onmouseover="onblock(4493117)"  onmouseout="ondisplay(4493117)"  id="4493117"  ><span class="li_right" >1015875ƿ</span><div id="4493117_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="���й١�&nbsp;ľ����" alt="���й١�&nbsp;ľ����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3515679">�й�&nbsp;</a><div  onmouseover="onblock(3515679)"  onmouseout="ondisplay(3515679)"  id="3515679"  ><span class="li_right" >1000251ƿ</span><div id="3515679_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��ĳĳ��&nbsp;ľ����" alt="��ĳĳ��&nbsp;ľ����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3173202">ĳĳ&nbsp;</a><div  onmouseover="onblock(3173202)"  onmouseout="ondisplay(3173202)"  id="3173202"  ><span class="li_right" >998916ƿ</span><div id="3173202_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="��αװѧ����&nbsp;ľ�ϻ�" alt="��αװѧ����&nbsp;ľ�ϻ�" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3190033">αװѧ��&nbsp;</a><div  onmouseover="onblock(3190033)"  onmouseout="ondisplay(3190033)"  id="3190033"  ><span class="li_right" >931248ƿ</span><div id="3190033_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="������Ƭ��Աapp[����]��&nbsp;Ϸ�Ӽ���" alt="������Ƭ��Աapp[����]��&nbsp;Ϸ�Ӽ���" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4433021">����Ƭ��Աapp[����&nbsp;</a><div  onmouseover="onblock(4433021)"  onmouseout="ondisplay(4433021)"  id="4433021"  ><span class="li_right" >900111ƿ</span><div id="4433021_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="������[����Ȧ]��&nbsp;����" alt="������[����Ȧ]��&nbsp;����" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4032130">����[����Ȧ]&nbsp;</a><div  onmouseover="onblock(4032130)"  onmouseout="ondisplay(4032130)"  id="4032130"  ><span class="li_right" >887648ƿ</span><div id="4032130_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="�����û�Ϸͼ��&nbsp;������" alt="�����û�Ϸͼ��&nbsp;������" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=4321973">���û�Ϸͼ&nbsp;</a><div  onmouseover="onblock(4321973)"  onmouseout="ondisplay(4321973)"  id="4321973"  ><span class="li_right" >857915ƿ</span><div id="4321973_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ʱ������ڤ�硷&nbsp;��֪��" alt="����ʱ������ڤ�硷&nbsp;��֪��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=3563820">��ʱ������ڤ��&nbsp;</a><div  onmouseover="onblock(3563820)"  onmouseout="ondisplay(3563820)"  id="3563820"  ><span class="li_right" >849934ƿ</span><div id="3563820_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li><li><div style="align:left"><a class="novelnamestype" style="width:129px;float: left;overflow: hidden;white-space: nowrap;" title="����ɫ���ݡ�&nbsp;��" alt="����ɫ���ݡ�&nbsp;��" style="_overflow:hidden; white-space: nowrap;"  href="http://www.jjwxc.net/onebook.php?novelid=2444752">��ɫ����&nbsp;</a><div  onmouseover="onblock(2444752)"  onmouseout="ondisplay(2444752)"  id="2444752"  ><span class="li_right" >843673ƿ</span><div id="2444752_span" style="display:none;"  class="intro"><a href="http://help.jjwxc.net/user/article/184" target="_blank">����Ӫ��Һ~��<b style="color:#390">?</b></a></div></div></li>');
+
+                } else {
+                    $('#url1 ul').html('<li><a  class="novelnamestype" title="��������;֮����硷&nbsp;����С��" alt="��������;֮����硷&nbsp;����С��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1467822">��������;֮����硷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=64614">����С��</a></li><li><a  class="novelnamestype" title="�������򸣡�&nbsp;������" alt="�������򸣡�&nbsp;������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=3346178">�������򸣡�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=1742981">������</a></li><li><a  class="novelnamestype" title="����ɽ�续����ذ桷&nbsp;��Ҷ����" alt="����ɽ�续����ذ桷&nbsp;��Ҷ����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=260419">����ɽ�续����ذ桷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=134886">��Ҷ����</a></li><li><a  class="novelnamestype" title="����������Ĭ(ȫ�ĵ�ַ����)��&nbsp;����" alt="����������Ĭ(ȫ�ĵ�ַ����)��&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=2456">����������Ĭ(ȫ�ĵ�ַ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=3243">����</a></li><li><a  class="novelnamestype" title="������ ���޷��ɡ�&nbsp;ܽ�" alt="������ ���޷��ɡ�&nbsp;ܽ�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=445608">������ ���޷��ɡ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=76273">ܽ�</a></li><li><a  class="novelnamestype" title="��������ü��&nbsp;���������" alt="��������ü��&nbsp;���������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=109034">��������ü��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=61966">���������</a></li><li><a  class="novelnamestype" title="��һ�ݶ����&nbsp;����" alt="��һ�ݶ����&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1872908">��һ�ݶ����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=719966">����</a></li><li><a  class="novelnamestype" title="����ǧ�ǡ�&nbsp;Fresh����" alt="����ǧ�ǡ�&nbsp;Fresh����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=316358">����ǧ�ǡ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=161621">Fresh����</a></li><li><a  class="novelnamestype" title="�����ԡ�&nbsp;���Ľ�" alt="�����ԡ�&nbsp;���Ľ�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1774380">�����ԡ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=934453">���Ľ�</a></li><li><a  class="novelnamestype" title="����;��&nbsp;ҹ��" alt="����;��&nbsp;ҹ��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=56627">����;��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=44728">ҹ��</a></li><li><a  class="novelnamestype" title="�����׵��и��������ɾ���&nbsp;֮��" alt="�����׵��и��������ɾ���&nbsp;֮��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=4501094">�����׵��и��������ɾ���&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=2139227">֮��</a></li><li><a  class="novelnamestype" title="�����ɰ��¹������&nbsp;����" alt="�����ɰ��¹������&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=4122694">�����ɰ��¹������&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=832804">����</a></li>');
+                    $('#url2 ul').html('<li><a  class="novelnamestype" title="����һ����&nbsp;���ι�" alt="����һ����&nbsp;���ι�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=47943">����һ����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=39758">���ι�</a></li><li><a  class="novelnamestype" title="����꡷&nbsp;priest" alt="����꡷&nbsp;priest" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1673146">����꡷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=145956">priest</a></li><li><a  class="novelnamestype" title="���̻�ϧ��&nbsp;΢Ц��è" alt="���̻�ϧ��&nbsp;΢Ц��è" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=96181">���̻�ϧ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=75910">΢Ц��è</a></li><li><a  class="novelnamestype" title="�����ڷɣ����Ĳ�����&nbsp;��д��" alt="�����ڷɣ����Ĳ�����&nbsp;��д��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=15693">�����ڷɣ����Ĳ�����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=31">��д��</a></li><li><a  class="novelnamestype" title="���ǳ���ʿ��&nbsp;����ҹ��" alt="���ǳ���ʿ��&nbsp;����ҹ��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1455190">���ǳ���ʿ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=293673">����ҹ��</a></li><li><a  class="novelnamestype" title="��������Լ��&nbsp;�̴����" alt="��������Լ��&nbsp;�̴����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=1359992">��������Լ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=295874">�̴����</a></li><li><a  class="novelnamestype" title="��������GL����&nbsp;ĺ��ѩ" alt="��������GL����&nbsp;ĺ��ѩ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=88185">��������GL����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=33297">ĺ��ѩ</a></li><li><a  class="novelnamestype" title="����������Ȧ[����]��&nbsp;Ե�ι�" alt="����������Ȧ[����]��&nbsp;Ե�ι�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=2069777">����������Ȧ[����]��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=791025">Ե�ι�</a></li><li><a  class="novelnamestype" title="����Ǯ�&nbsp;������" alt="����Ǯ�&nbsp;������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=60066">����Ǯ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=48075">������</a></li><li><a  class="novelnamestype" title="���������á�&nbsp;��Ұǧ��" alt="���������á�&nbsp;��Ұǧ��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=2153053">���������á�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=468503">��Ұǧ��</a></li><li><a  class="novelnamestype" title="���һ�ծ��&nbsp;���ι�" alt="���һ�ծ��&nbsp;���ι�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=157075">���һ�ծ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=39758">���ι�</a></li><li><a  class="novelnamestype" title="�������ƣ�GL����&nbsp;ĺ��ѩ" alt="�������ƣ�GL����&nbsp;ĺ��ѩ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=45840">�������ƣ�GL����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=33297">ĺ��ѩ</a></li>');
+                    $('#url3 ul').html('<li><a  class="novelnamestype" title="������-��ʵ��&nbsp;����" alt="������-��ʵ��&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=93219">������-��ʵ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=37975">����</a></li><li><a  class="novelnamestype" title="��ֻ�ǵ�ʱ��&nbsp;������" alt="��ֻ�ǵ�ʱ��&nbsp;������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=2971">��ֻ�ǵ�ʱ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=16">������</a></li><li><a  class="novelnamestype" title="��SDͬ�ˡ�����֮���&nbsp;��ϫ" alt="��SDͬ�ˡ�����֮���&nbsp;��ϫ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=290254">��SDͬ�ˡ�����֮���&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=221369">��ϫ</a></li><li><a  class="novelnamestype" title="���������ӡ�������Խǰ�����&nbsp;����" alt="���������ӡ�������Խǰ�����&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=152362">���������ӡ�������Խǰ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=126611">����</a></li><li><a  class="novelnamestype" title="��������&nbsp;iceheart" alt="��������&nbsp;iceheart" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=971">��������&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=1">iceheart</a></li><li><a  class="novelnamestype" title="��������Խ����ӱ��Ԫ��1��&nbsp;��������" alt="��������Խ����ӱ��Ԫ��1��&nbsp;��������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=107074">��������Խ����ӱ�䡷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=85370">��������</a></li><li><a  class="novelnamestype" title="�� ����ͬ�� --��ʵ��Ӱ��&nbsp;͸��ˮ����" alt="�� ����ͬ�� --��ʵ��Ӱ��&nbsp;͸��ˮ����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=108768">�� ����ͬ�� --�桷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=87695">͸��ˮ����</a></li><li><a  class="novelnamestype" title="���ߴ�seed�����ǳ��Ĺ���Ӱ��&nbsp;��ǧˮ" alt="���ߴ�seed�����ǳ��Ĺ���Ӱ��&nbsp;��ǧˮ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=295983">���ߴ�seed�����ǳ��ġ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=203370">��ǧˮ</a></li><li><a  class="novelnamestype" title="���ҳ�֮�硷&nbsp;����" alt="���ҳ�֮�硷&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=90001">���ҳ�֮�硷&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=46931">����</a></li><li><a  class="novelnamestype" title="������ͬ��---��������?�����ޣ���&nbsp;С�۶�" alt="������ͬ��---��������?�����ޣ���&nbsp;С�۶�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=97801">������ͬ��---�����ǡ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=77368">С�۶�</a></li><li><a  class="novelnamestype" title="����֮�˰� ��֮�ϡ�&nbsp;մ��" alt="����֮�˰� ��֮�ϡ�&nbsp;մ��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=16111">����֮�˰� ��֮�ϡ�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=30">մ��</a></li><li><a  class="novelnamestype" title="������ͬ�ˡ������������Ρ�&nbsp;���" alt="������ͬ�ˡ������������Ρ�&nbsp;���" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=48122">������ͬ�ˡ����������١�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=39895">���</a></li>');
+                    $('#url4 ul').html('<li><a  class="novelnamestype" title="���������Σ��°棩��&nbsp;֮֮" alt="���������Σ��°棩��&nbsp;֮֮" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=91370">���������Σ��°棩��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=7910">֮֮</a></li><li><a  class="novelnamestype" title="�����·��꣩��������Ĭ��&nbsp;����" alt="�����·��꣩��������Ĭ��&nbsp;����" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=55648">�����·��꣩��������Ĭ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=3243">����</a></li><li><a  class="novelnamestype" title="����紵ɢ����������&nbsp;������" alt="����紵ɢ����������&nbsp;������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=86428">����紵ɢ����������&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=68031">������</a></li><li><a  class="novelnamestype" title="��������İ�ƪ��&nbsp;ˮ��һɫ" alt="��������İ�ƪ��&nbsp;ˮ��һɫ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=15488">��������İ�ƪ��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=15876">ˮ��һɫ</a></li><li><a  class="novelnamestype" title="���׹Ǿ���������ա�&nbsp;��֮��" alt="���׹Ǿ���������ա�&nbsp;��֮��" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=283394">���׹Ǿ���������ա�&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=137643">��֮��</a></li><li><a  class="novelnamestype" title="���� �� �&nbsp;_����_" alt="���� �� �&nbsp;_����_" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=180625">���� �� �&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=117587">_����_</a></li><li><a  class="novelnamestype" title="������ħ���ɻ&nbsp;΢Ц��è" alt="������ħ���ɻ&nbsp;΢Ц��è" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=143964">������ħ���ɻ&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=75910">΢Ц��è</a></li><li><a  class="novelnamestype" title="���ݺᣨ��һ�� Ȩ������&nbsp;�ִ�" alt="���ݺᣨ��һ�� Ȩ������&nbsp;�ִ�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=65066">���ݺᣨ��һ�� Ȩ������&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=12976">�ִ�</a></li><li><a  class="novelnamestype" title="�����´���&nbsp;��ɫ" alt="�����´���&nbsp;��ɫ" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=5170">�����´���&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=5385">��ɫ</a></li><li><a  class="novelnamestype" title="��ƫƫ�Ķ�(�꣩��&nbsp;�ͺ�" alt="��ƫƫ�Ķ�(�꣩��&nbsp;�ͺ�" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=4512">��ƫƫ�Ķ�(�꣩��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=5232">�ͺ�</a></li><li><a  class="novelnamestype" title="����ɽ��ˮ�û������꣩��&nbsp;ane" alt="����ɽ��ˮ�û������꣩��&nbsp;ane" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=32002">����ɽ��ˮ�û������꣩��&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=10396">ane</a></li><li><a  class="novelnamestype" title="��ħŮ��Ϸ����&nbsp;��������" alt="��ħŮ��Ϸ����&nbsp;��������" style="_overflow:hidden; white-space: nowrap; display:block;float:left;width: 130px;" id="" href="http://www.jjwxc.net/onebook.php?novelid=133147">��ħŮ��Ϸ����&nbsp;</a><a style="display:block;float:right;width: 63px;text-align:right" class="authorclass" href="http://www.jjwxc.net/oneauthor.php?authorid=41522">��������</a></li>');
+
+
+                }
+                $('#explaine').hide()
+                $('.explaine').mouseover(function() {
+                    $("#explaine").show();
+
+                });
+            })
+        </script>
+        <script type="text/javascript" src="static/js/advertisement.js"></script>
+        
+<div style="display:none;" class="cnzz">
+    <script src='static/js/c.js' language='JavaScript'></script>
+    <script>
+        var _czc = _czc||[];
+        _czc.push(["_setAccount", "30075907"]);
+    </script>
+    <!-- �ٶ�ͳ�� -->
+    <script>
+        var _hmt = _hmt||[];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+    </body>
+</html>
+  
+

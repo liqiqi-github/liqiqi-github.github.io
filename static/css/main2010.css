@@ -1,0 +1,40 @@
+﻿/*reset*/
+body {
+    background-image: none;
+}
+body,div,ul,li,h1,form,input,textarea,p {padding:0; margin:0;}
+img {border:0;}ul,li {list-style:none;}
+body {background:#fff; padding-bottom:20px; color:#666; font-size:12px;line-height:22px; font-family:"����";}
+h1 a,h2 a {color:#390; font-size:14px; padding-bottom:5px;}
+h1 a:hover,h2 a:hover {color:#360;} 
+.clear {clear:both;overflow:hidden; height:0;}
+a {color:#666; text-decoration:none;}
+a:hover {color:#333}
+
+#top, #main, #footer {width:984px; margin:0 auto;}
+#top {background:url(../images/topbg.jpg) bottom no-repeat; height:145px; position:relative;}
+#logo, .time, .login {position:absolute;}
+#logo {top:5px; left:25px;}
+.time {top:30px; right:4px; width:500px;}
+.time div {float:right; border-bottom:1px #ddd solid; line-height:30px;}
+.time div li {float:left;}
+.l1, .l2, .l3 {padding-left:23px; margin-left:20px; background:url(../images/iconbg.jpg) no-repeat;}
+.l1 {background-position:0 5px;}
+.l2 {background-position:0 -37px;}
+.l3 {background-position:0 -76px;}
+.login {top:70px; right:4px; width:600px;}
+.login div {float: left;padding: 0 6px 0 0;}
+
+#main {background:url(../images/mainbg.jpg) no-repeat; height:560px;}
+.mainbox {padding:30px; font-size:14px;}
+.div1 {border-bottom:1px #e5efc7 solid; padding-bottom:20px; margin-bottom:30px;}
+.div2 ul {height:80px; margin-bottom:30px;}
+.div2 ul li {width:169px; height:76px; float:left;}
+.div2 ul li.l4 {float:left; width:10px; height:10px;}
+.div2 ul li a {width:169px; height:76px; display:block;}
+
+/*a.a4, a.a4:hover {background:url(../images/enter04.jpg) no-repeat;}*/
+a.a5, a.a5:hover {background:url(../images/enter05.jpg) no-repeat;}
+a.a1:hover, a.a2:hover, a.a3:hover, a.a4:hover, a.a5:hover {background-position:0 -76px;}
+.contant {padding-left:4px;}
+#footer1 {text-align:center; padding:30px 0;}
